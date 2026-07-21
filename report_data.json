@@ -1,0 +1,638 @@
+{
+  "part_b_horizons": {
+    "12": {
+      "horizon": 12,
+      "V_start": -30.72884149,
+      "reachable_states_count": 237,
+      "mean_return": -41.0,
+      "success_rate": 0.0,
+      "mean_length": 6.0,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 100,
+        "timeout": 0
+      }
+    },
+    "20": {
+      "horizon": 20,
+      "V_start": -30.22929563,
+      "reachable_states_count": 874,
+      "mean_return": -27.5,
+      "success_rate": 0.15,
+      "mean_length": 6.75,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 85,
+        "timeout": 0
+      }
+    },
+    "30": {
+      "horizon": 30,
+      "V_start": -30.22310012,
+      "reachable_states_count": 1684,
+      "mean_return": -41.0,
+      "success_rate": 0.0,
+      "mean_length": 6.0,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 100,
+        "timeout": 0
+      }
+    }
+  },
+  "part_b_policy_slices": [
+    {
+      "state": [
+        0,
+        0,
+        false,
+        1,
+        15
+      ],
+      "actions_by_time": {
+        "15": "UP"
+      }
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        2,
+        16
+      ],
+      "actions_by_time": {
+        "16": "UP"
+      }
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        3,
+        17
+      ],
+      "actions_by_time": {
+        "17": "UP"
+      }
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        4,
+        18
+      ],
+      "actions_by_time": {
+        "18": "UP"
+      }
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        5,
+        19
+      ],
+      "actions_by_time": {
+        "19": "UP"
+      }
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        6,
+        20
+      ],
+      "actions_by_time": {
+        "20": "RIGHT"
+      }
+    }
+  ],
+  "part_b_q4_hazard_experiment": {
+    "danger_reward": -200.0,
+    "V_start_high": -30.22929563,
+    "eval_on_high_env": {
+      "mean_return": -27.5,
+      "success_rate": 0.15,
+      "mean_length": 6.75,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 85,
+        "timeout": 0
+      },
+      "returns": [
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        49.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        43.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        48.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        50.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        45.0,
+        -41.0
+      ]
+    },
+    "eval_on_normal_env": {
+      "mean_return": -27.5,
+      "success_rate": 0.15,
+      "mean_length": 6.75,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 85,
+        "timeout": 0
+      },
+      "returns": [
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        49.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        43.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        48.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        50.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        50.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        -41.0,
+        45.0,
+        -41.0
+      ]
+    }
+  },
+  "part_c_model_estimation": {
+    "sparse": {
+      "0.0": {
+        "smoothing": 0.0,
+        "num_transitions": 69,
+        "eval": {
+          "success_rate": 0.0,
+          "mean_return": -41.0,
+          "mean_length": 6.0,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 100,
+            "timeout": 0
+          }
+        }
+      },
+      "0.1": {
+        "smoothing": 0.1,
+        "num_transitions": 69,
+        "eval": {
+          "success_rate": 0.0,
+          "mean_return": -41.0,
+          "mean_length": 6.0,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 100,
+            "timeout": 0
+          }
+        }
+      },
+      "1.0": {
+        "smoothing": 1.0,
+        "num_transitions": 69,
+        "eval": {
+          "success_rate": 0.0,
+          "mean_return": -41.0,
+          "mean_length": 6.0,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 100,
+            "timeout": 0
+          }
+        }
+      }
+    },
+    "good": {
+      "0.0": {
+        "smoothing": 0.0,
+        "num_transitions": 67,
+        "eval": {
+          "success_rate": 0.14,
+          "mean_return": -28.45,
+          "mean_length": 6.75,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 86,
+            "timeout": 0
+          }
+        }
+      },
+      "0.1": {
+        "smoothing": 0.1,
+        "num_transitions": 67,
+        "eval": {
+          "success_rate": 0.14,
+          "mean_return": -28.45,
+          "mean_length": 6.75,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 86,
+            "timeout": 0
+          }
+        }
+      },
+      "1.0": {
+        "smoothing": 1.0,
+        "num_transitions": 67,
+        "eval": {
+          "success_rate": 0.14,
+          "mean_return": -28.45,
+          "mean_length": 6.75,
+          "failure_breakdown": {
+            "danger": 0,
+            "battery": 86,
+            "timeout": 0
+          }
+        }
+      }
+    }
+  },
+  "part_c_mc_td_comparison": [
+    {
+      "state": [
+        0,
+        0,
+        false,
+        6,
+        20
+      ],
+      "true_dp": -30.22929563,
+      "mc_val": -28.3775,
+      "td_val": -22.149913237719385,
+      "diff_mc": 1.851795629999998,
+      "diff_td": 8.079382392280614
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        5,
+        19
+      ],
+      "true_dp": -40.0,
+      "mc_val": -40.0,
+      "td_val": -39.996755676184684,
+      "diff_mc": 0.0,
+      "diff_td": 0.0032443238153163634
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        4,
+        18
+      ],
+      "true_dp": -39.0,
+      "mc_val": -39.0,
+      "td_val": -38.99992375460103,
+      "diff_mc": 0.0,
+      "diff_td": 7.624539897221894e-05
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        3,
+        17
+      ],
+      "true_dp": -38.0,
+      "mc_val": -38.0,
+      "td_val": -37.99999411392931,
+      "diff_mc": 0.0,
+      "diff_td": 5.886070688632117e-06
+    },
+    {
+      "state": [
+        0,
+        0,
+        false,
+        2,
+        16
+      ],
+      "true_dp": -37.0,
+      "mc_val": -37.0,
+      "td_val": -36.99999940455493,
+      "diff_mc": 0.0,
+      "diff_td": 5.954450728040683e-07
+    }
+  ],
+  "part_c_q_learning": {
+    "constant_epsilon": {
+      "visited_q_entries": 205,
+      "eval": {
+        "success_rate": 0.05333333333333334,
+        "mean_return": -36.25333333333333,
+        "mean_length": 6.32,
+        "failure_breakdown": {
+          "danger": 0,
+          "battery": 142,
+          "timeout": 0
+        }
+      }
+    },
+    "decaying_epsilon": {
+      "visited_q_entries": 200,
+      "eval": {
+        "success_rate": 0.0,
+        "mean_return": -41.0,
+        "mean_length": 6.0,
+        "failure_breakdown": {
+          "danger": 0,
+          "battery": 150,
+          "timeout": 0
+        }
+      }
+    }
+  },
+  "part_c_boltzmann": {
+    "temp_1_0": {
+      "visited_q": 172,
+      "eval": {
+        "success_rate": 0.0,
+        "mean_return": -41.0,
+        "mean_length": 6.0,
+        "failure_breakdown": {
+          "danger": 0,
+          "battery": 150,
+          "timeout": 0
+        }
+      }
+    },
+    "temp_0_2": {
+      "visited_q": 214,
+      "eval": {
+        "success_rate": 0.006666666666666667,
+        "mean_return": -40.38666666666666,
+        "mean_length": 6.02,
+        "failure_breakdown": {
+          "danger": 0,
+          "battery": 149,
+          "timeout": 0
+        }
+      }
+    }
+  },
+  "decision_agent_comparison": {
+    "oracle_planner": {
+      "horizon": 20,
+      "V_start": -30.22929563,
+      "reachable_states_count": 874,
+      "mean_return": -27.5,
+      "success_rate": 0.15,
+      "mean_length": 6.75,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 85,
+        "timeout": 0
+      }
+    },
+    "estimated_model_planner_good": {
+      "success_rate": 0.14,
+      "mean_return": -28.45,
+      "mean_length": 6.75,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 86,
+        "timeout": 0
+      }
+    },
+    "estimated_model_planner_sparse": {
+      "success_rate": 0.0,
+      "mean_return": -41.0,
+      "mean_length": 6.0,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 100,
+        "timeout": 0
+      }
+    },
+    "q_learning_constant": {
+      "success_rate": 0.05333333333333334,
+      "mean_return": -36.25333333333333,
+      "mean_length": 6.32,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 142,
+        "timeout": 0
+      }
+    },
+    "q_learning_decaying": {
+      "success_rate": 0.0,
+      "mean_return": -41.0,
+      "mean_length": 6.0,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 150,
+        "timeout": 0
+      }
+    },
+    "boltzmann_temp_1_0": {
+      "success_rate": 0.0,
+      "mean_return": -41.0,
+      "mean_length": 6.0,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 150,
+        "timeout": 0
+      }
+    },
+    "boltzmann_temp_0_2": {
+      "success_rate": 0.006666666666666667,
+      "mean_return": -40.38666666666666,
+      "mean_length": 6.02,
+      "failure_breakdown": {
+        "danger": 0,
+        "battery": 149,
+        "timeout": 0
+      }
+    }
+  }
+}
